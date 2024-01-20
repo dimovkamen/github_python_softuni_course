@@ -1,0 +1,10 @@
+
+### IDE
+ctrl shift F10 => run
+ctrl alt l     => format
+ctrl /         => comment
+
+snake_case
+cammelCase
+UpperCammelCase
+kebab-case
