@@ -1,2 +1,2 @@
-word = "opel"
-print(word[::-1])
+
+print(2**10)
