@@ -30,9 +30,13 @@ my_list = [1, 2, 3, 4, 5, 4, 'test']
 # print(sorted(my_list))
 # print(my_list)
 
-search_str = 'test'
-if search_str in my_list:
+# search_str = 'test'
+# if search_str in my_list:
+#     print("yes")
+#
+
+word = "Soft"
+text = "I am in Soft Uni"
+
+if word in text:
     print("yes")
-
-
-
