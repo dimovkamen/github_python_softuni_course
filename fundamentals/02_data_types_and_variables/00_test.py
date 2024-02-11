@@ -1,3 +1,9 @@
+# list [,,]                --> ordered (index), allow duplicates
+# dictionary { :, :, : }   --> key value
+# tuple (,,)               --> like list but immutable, unchangeable
+# set {,,}                 --> unordered (no indexed), duplicates are not printed
+
+
 # list1 = [123, 0.5, 'bus', "A"]
 # print(list1[0])
 # print(list1[1])
@@ -32,10 +38,7 @@
 # example_tuple = ( "apple", "cherry", "banana")
 # print(example_tuple[1])
 
-# list [] --> ordered
-# dictionary { :, :, : }
-# tuple () -> like list but immutable
-# set {} --> unordered, duplicates are not printed
+
 
 # set1 = {"car", "dog", "cat"}
 # set1.add("dog")
