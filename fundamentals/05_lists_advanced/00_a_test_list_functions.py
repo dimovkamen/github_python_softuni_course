@@ -7,7 +7,13 @@
 # reverse--> reverse elements in a list
 # index  --> return index of a specific value
 
-# comprehension
+# map
+# filter
+# lambda
+# reduce
+# swap
+
+# comprehension --> make small fast operations with list fields
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 squares = [num ** 2 for num in numbers if num % 2 == 0]
 print(squares)
@@ -24,3 +30,6 @@ print(people_dictionary)
 sentence = "Hello, Hi Python!"
 unique_chars = {char for char in sentence if char.isalpha()}
 print(unique_chars)
+
+
+
