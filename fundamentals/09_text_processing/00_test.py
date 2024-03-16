@@ -21,6 +21,7 @@
 # .isdecimal()
 # .replace()
 # word_1 in word_2 - > check if sting is inside other string
+# .isalnum() --> a-z A-Z 0-9
 
 message = '''<?xml version="1.0" encoding="UTF-8"?>
   <note> 
