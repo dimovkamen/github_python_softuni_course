@@ -1,9 +1,16 @@
 import re
 
 # METHODS
-# .search
-# .findall
-# .match
+# .search   --> search full text and return first occurrence, Null
+# .match    --> it should start with the patter to match, and will return only first occurrence, None, groups
+# .findall  --> all in a list and groups in tuple, empty list [] if not found, finds only groups if any
+# .finditer --> to iterate with for, result groups
+# .sub      --> replace substring
+# .split    --> split on given place
+
+# re.findall(pattern, text, re.IGNORECASE)
+# OR
+# rf'(?i)\b{re.escape(word)}\b'
 
 #
 # def test_regex(regex, text):
@@ -31,7 +38,7 @@ import re
 
 
 text = "_ (underscores) are also word characters!"
-pattern = '\\w+'
+pattern = r'\w+'
 result = re.findall(pattern, text)
 print(result)
 
